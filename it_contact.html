@@ -64,6 +64,14 @@
                 </li>
                 <li> <a  href="it_shop.html">Productos</a>
                 </li>
+                <li> <a  href="it_career.html">Nutrición</a>
+                  <ul>
+                    <li><a href="it_career.html">Tabla Nutricional</a></li>
+                    <li><a href="beneficiosqueso.html">Beneficios del queso</a></li>
+                    <li><a href="dieta.html">La dieta mediterránea</a></li>
+                    <li><a href="nutricion.html">El mundo de la nutrición</a></li>
+                  </ul>
+                </li>
                 <li> <a href="it_cart.html">Compras</a>
                 </li>
                 <li> <a class="active" href="it_contact.html">Contacto</a>
@@ -148,6 +156,17 @@
                 </div>
               </div>
             </div>
+            <div class="pull-right">
+              <div class="social_icon">
+                <ul class="social_icons">
+                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
             <div class="full">
               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="main_heading text_align_center">
@@ -156,28 +175,28 @@
               </div>
               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 appointment_form">
                 <div class="form_section">
-                  <form class="form_contant" action="index.html">
+                  <form  action="enviar.php" method="post" class="form_contant" >
                     <fieldset class="row">
                     <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <input class="field_custom" placeholder="Nombre*" type="text" required>
+                      <input class="field_custom" name="name" placeholder="Nombre*" type="text" required>
                     </div>
                     <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <input class="field_custom" placeholder="Apellido" type="text" required>
+                      <input class="field_custom" name="#" placeholder="Apellido" type="text" required>
                     </div>
                     <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <input class="field_custom" placeholder="Correo electronico*" type="email" required>
+                      <input class="field_custom" name="mail" placeholder="Correo electronico*" type="email" required>
                     </div>
                     <div class="field col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <input class="field_custom" placeholder="Numero de telefono" type="text" required>
+                      <input class="field_custom" name="phone" placeholder="Numero de telefono" type="text" required>
                     </div>
                     <div class="field col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <input class="field_custom" placeholder="Asunto*" type="text" required>
+                      <input class="field_custom" name="#" placeholder="Asunto*" type="text" required>
                     </div>
                     <div class="field col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                      <textarea class="field_custom" placeholder="Descripción*" required></textarea>
+                      <textarea class="field_custom" name="message" placeholder="Descripción*" required></textarea>
                     </div>
                     <div class="center">
-                      <button class="btn main_bt">Enviar</button>
+                      <button type="submit" class="btn main_bt">Enviar</button>
                     </div>
                     </fieldset>
                   </form>
