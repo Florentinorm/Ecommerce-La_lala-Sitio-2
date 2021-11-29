@@ -56,7 +56,10 @@ footer ul.social_icons li a:focus,
     border-radius: 0;
     background: #8cbf3a;
 }
-
+.btn {
+    border-radius: 0;
+    background: #8cbf3a;
+}
 .btn.sqaure_bt span {
     font-size: 31px;
     font-weight: 400;
