@@ -79,6 +79,19 @@
                       <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
                       </ul>
                   </li>
+                  <li> <a href="#">Accesibilidad</a>
+                    <ul>
+                        <div class="btn-toolbar justify-content-center" role="toolbar"
+                            aria-label="Botones">
+                            <button type="button"
+                                class="disminuir btn btn-dark mr-1">Disminuir</button>
+                            <button type="button"
+                                class="aumentar btn btn-dark mr-1">Aumentar</button>
+                            <button type="button"
+                                class="restablecer btn btn-danger">Restablecer</button>
+                        </div>
+                    </ul>
+                </li>
                 </ul>
               </div>
               <div class="search_icon">
@@ -125,18 +138,18 @@
         <div class="col-md-9">
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 about_cont_blog" style="padding:0 15px;">
-              <div class="full text_align_left">
-                <h3>El queso, su aporte nutricional</h3>
-                <p>
+              <div class="justify-content-center">
+                <h3 class="mitexto">El queso, su aporte nutricional</h3>
+                <p class="mitexto">
                   De acuerdo con la FAO/OMS: "el queso es el producto fresco o madurado obtenido por la coagulación y
                   separación de la leche, nata, leche parcialmente desnatada, mazada o por una mezcla de estos
                   productos".
                 </p>
-                <p>
+                <p class="mitexto">
                   El origen de su uso no es conocido de forma exacta aunque se estima que gira alrededor del año 8.000
                   a.C. Datos arqueológicos demuestran que su elaboración en el antiguo Egipto data del año 2.300 a.C.
                 </p>
-                <p>
+                <p class="mitexto">
                   Europa introdujo las habilidades para su elaboración y producción convirtiéndolo en un producto de
                   consumo popular. Gracias al impulso de Europa, poco a poco el queso se ha dado a conocer en todo el
                   mundo. Fue en Suiza (hoy con más de 450 tipos distintos de queso) en 1815, donde se abrió la primera
@@ -150,9 +163,9 @@
             </div>
           </div>
           <div class="row" style="margin-bottom: 30px;">
-            <div class="col-md-12">
+            <div class="col-md-12; mitexto">
               <div class="full" style="margin-top: 15px;">
-                <p>
+                <p class="mitexto">
                   De acuerdo con las recomendaciones establecidas por la SENC para conseguir una dieta equilibrada, la
                   frecuencia de consumo de lácteos y derivados y la distribución de las raciones diarias se exponen en
                   este cuadro:
@@ -186,15 +199,15 @@
               </table>
             </div>
           </div>
-          <div class="row" style="margin-bottom: 30px;">
-            <div class="col-md-12">
-              <div class="full" style="margin-top: 15px;">
+          <div class="row" style="margin-bottom: 30px;" class="mitexto">
+            <div class="col-md-12; mitexto">
+              <div class="full; mitexto" style="margin-top: 15px;">
                 <h3 style="text-align: center;">Aspectos nutricionales de los principales quesos</h3>
                 <p style="text-align: center;">
                   Tabla nutricional comparativa de diferentes quesos cada 100 gramos
                 </p>
               </div>
-              <table class="table table-striped">
+              <table class="table table-striped; mitexto">
                 <thead>
                   <tr style="text-align: center;">
                     <th scope="col" >Tipo</th>
@@ -412,6 +425,7 @@
   <script src="js/wow.js"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
   <script>
 
     // This example adds a marker to indicate the position of Bondi Beach in Sydney,
